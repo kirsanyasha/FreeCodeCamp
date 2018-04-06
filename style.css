@@ -7,6 +7,41 @@
 	flex-direction: column;
 }
 
+button {
+	display: inline-block;
+	background: #722872;
+	text-decoration: none;
+	border: none;
+	color: #777;
+	padding: 10px 20px;
+	font-size: 17px;
+	
+}
+
+
+
+.top {
+	background-color: #722872;
+	height: 70px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.pic {
+	height: 40px;
+	vertical-align: middle;
+	margin: 15px;
+	margin-left: 500px; 
+
+}
+
+.container {
+	width: 95%;
+	max-width: 1024px;
+	display: flex;
+	justify-content: space-between;
+}
+
 .middle {
 	width: 1024px;
 	background-color: #A9A9A9;
@@ -150,27 +185,27 @@ input {
 .left {
 	width: 50%;
 	margin-bottom: 70px;
-	margin-top:70px;
+	margin-top: 70px;
 	color: white;
 	text-align: center;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
 }
-.coffee:before
- {
+
+.coffee:before {
 	content: "\262f	";
 	width: 1.28571429em;
-
-	
 }
+
 .music:before {
 	content: "\271e";
 	width: 1.28571429em;
 }
+
 .right {
 	width: 50%;
 	margin-bottom: 70px;
-	margin-top:70px;
+	margin-top: 70px;
 	font-size: 20px;
 	color: white;
 }
@@ -178,11 +213,10 @@ input {
 a {
 	text-decoration: none;
 }
-.linkedin:before
-{
+
+.linkedin:before {
 	content: "\f0e1"
 }
-
 
 .footer {
 	background-color: #722872;
@@ -190,5 +224,5 @@ a {
 	text-align: center;
 	color: white;
 	padding-top: 35px;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
